@@ -429,7 +429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3VZEIVm8V6F-LIaVJ_aD" name="Процессы Обслуживания">
-    <mxGraphModel dx="2073" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3295" dy="2565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -747,9 +747,6 @@
         <mxCell id="8k9S_Gfa90XHphGi78lB-41" value="&lt;div&gt;Консультация &lt;br&gt;&lt;/div&gt;&lt;div&gt;по ПЛ&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-160" y="1400" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8k9S_Gfa90XHphGi78lB-42" value="не погру" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="1340" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="8k9S_Gfa90XHphGi78lB-43" value="Jira" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="55" width="120" height="50" as="geometry" />
         </mxCell>
@@ -811,6 +808,21 @@
         </mxCell>
         <mxCell id="8k9S_Gfa90XHphGi78lB-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="8k9S_Gfa90XHphGi78lB-61" target="8k9S_Gfa90XHphGi78lB-59">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xkwBalC3e4V9yKURDB0V-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-460" y="320" width="133" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8k9S_Gfa90XHphGi78lB-42" value="не погружались" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="xkwBalC3e4V9yKURDB0V-4">
+          <mxGeometry y="20" width="133" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xkwBalC3e4V9yKURDB0V-1" value="готовятся к гейтам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="xkwBalC3e4V9yKURDB0V-4">
+          <mxGeometry y="40" width="133" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xkwBalC3e4V9yKURDB0V-2" value="проводится Op Review" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xkwBalC3e4V9yKURDB0V-4">
+          <mxGeometry y="60" width="133" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xkwBalC3e4V9yKURDB0V-3" value="Легенда" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xkwBalC3e4V9yKURDB0V-4">
+          <mxGeometry width="133" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
