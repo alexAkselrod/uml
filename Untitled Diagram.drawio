@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.6.0">
+  <diagram name="Page-1" id="xwy1HmHBgaGGfOROrKIb">
+    <mxGraphModel dx="1682" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Statist" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-3" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Kafka" vertex="1">
+          <mxGeometry height="50" width="100" x="380" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-4" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" target="EZsL0AHm5zODtvQEYM3k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-6" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="EZsL0AHm5zODtvQEYM3k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-5" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Ingest" vertex="1">
+          <mxGeometry height="50" width="100" x="380" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-14" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EZsL0AHm5zODtvQEYM3k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-7" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Replica" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-16" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EZsL0AHm5zODtvQEYM3k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-8" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Log" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-9" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" target="EZsL0AHm5zODtvQEYM3k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-11" connectable="0" parent="EZsL0AHm5zODtvQEYM3k-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="apply change to snapshot" vertex="1">
+          <mxGeometry relative="1" x="0.3603" y="1" as="geometry">
+            <mxPoint x="24" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-10" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" target="EZsL0AHm5zODtvQEYM3k-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-12" connectable="0" parent="EZsL0AHm5zODtvQEYM3k-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="store row operations" vertex="1">
+          <mxGeometry relative="1" x="0.515" y="1" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Тут отставание до 24 часов" vertex="1">
+          <mxGeometry height="40" width="90" x="-50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-18" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EZsL0AHm5zODtvQEYM3k-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Тут отставание до 8 часов. К 3 часам ночи всё дочитаем" vertex="1">
+          <mxGeometry height="50" width="110" x="-60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Использовать Log даст нормальное решение" vertex="1">
+          <mxGeometry height="50" width="110" x="-250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-21" edge="1" parent="1" source="EZsL0AHm5zODtvQEYM3k-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EZsL0AHm5zODtvQEYM3k-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-19" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Nitro" vertex="1">
+          <mxGeometry height="50" width="100" x="380" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="EZsL0AHm5zODtvQEYM3k-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Если будут сами отправлять события, то будет хорошо" vertex="1">
+          <mxGeometry height="60" width="110" x="180" y="470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
