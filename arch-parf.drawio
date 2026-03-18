@@ -260,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FGs9JqbXTleUqNlbfLZ2" name="Page-2">
-    <mxGraphModel dx="1899" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1970" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,7 +277,12 @@
           <mxGeometry height="50" width="100" x="-130" y="-770" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-36" edge="1" parent="1" source="qz4jCF_T33mbPohQ7uVr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" target="qz4jCF_T33mbPohQ7uVr-35">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="-755" />
+              <mxPoint x="-210" y="-755" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-46" edge="1" parent="1" source="qz4jCF_T33mbPohQ7uVr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qz4jCF_T33mbPohQ7uVr-45" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -288,11 +293,11 @@
         <mxCell id="qz4jCF_T33mbPohQ7uVr-38" edge="1" parent="1" source="qz4jCF_T33mbPohQ7uVr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" target="qz4jCF_T33mbPohQ7uVr-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qz4jCF_T33mbPohQ7uVr-39" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="Routing" vertex="1">
+        <mxCell id="qz4jCF_T33mbPohQ7uVr-39" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Routing" vertex="1">
           <mxGeometry height="50" width="100" x="-130" y="-620" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-41" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="TWork" vertex="1">
-          <mxGeometry height="50" width="100" x="-140" y="-970" as="geometry" />
+          <mxGeometry height="50" width="100" x="-130" y="-970" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-51" edge="1" parent="1" source="qz4jCF_T33mbPohQ7uVr-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qz4jCF_T33mbPohQ7uVr-49">
           <mxGeometry relative="1" as="geometry" />
@@ -332,7 +337,7 @@
         <mxCell id="qz4jCF_T33mbPohQ7uVr-50" edge="1" parent="1" source="qz4jCF_T33mbPohQ7uVr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="qz4jCF_T33mbPohQ7uVr-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qz4jCF_T33mbPohQ7uVr-53" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="T-Context&lt;br&gt;&amp;lt;Problem-Platform&amp;gt;" vertex="1">
+        <mxCell id="qz4jCF_T33mbPohQ7uVr-53" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="T-Context&lt;br&gt;&amp;lt;Problem-Platform&amp;gt;" vertex="1">
           <mxGeometry height="50" width="150" x="280" y="-680" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-55" edge="1" parent="1" source="qz4jCF_T33mbPohQ7uVr-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" target="qz4jCF_T33mbPohQ7uVr-53">
@@ -345,19 +350,55 @@
           <mxGeometry height="50" width="100" x="90" y="-520" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-63" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="120" x="-590" y="-970" as="geometry" />
+          <mxGeometry height="80" width="120" x="-310" y="-980" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-59" parent="qz4jCF_T33mbPohQ7uVr-63" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Картель" vertex="1">
           <mxGeometry height="20" width="120" as="geometry" />
         </mxCell>
-        <mxCell id="qz4jCF_T33mbPohQ7uVr-60" parent="qz4jCF_T33mbPohQ7uVr-63" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Боты" vertex="1">
+        <mxCell id="qz4jCF_T33mbPohQ7uVr-60" parent="qz4jCF_T33mbPohQ7uVr-63" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Инструменты" vertex="1">
           <mxGeometry height="20" width="120" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qz4jCF_T33mbPohQ7uVr-61" parent="qz4jCF_T33mbPohQ7uVr-63" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Проблема" vertex="1">
-          <mxGeometry height="20" width="120" y="40" as="geometry" />
         </mxCell>
         <mxCell id="qz4jCF_T33mbPohQ7uVr-62" parent="qz4jCF_T33mbPohQ7uVr-63" style="rounded=0;whiteSpace=wrap;html=1;" value="Прочее" vertex="1">
           <mxGeometry height="20" width="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-3" edge="1" parent="1" source="SYR4WXfk_IWv6eVffB7p-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SYR4WXfk_IWv6eVffB7p-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="От Вовы: кто-то должен думать про то, каким образом будет обеспечиваться качество создаваемых в федерализированной картине мира процессы обслуживания" vertex="1">
+          <mxGeometry height="110" width="230" x="-270" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-5" edge="1" parent="1" source="SYR4WXfk_IWv6eVffB7p-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SYR4WXfk_IWv6eVffB7p-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-11" edge="1" parent="1" source="SYR4WXfk_IWv6eVffB7p-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SYR4WXfk_IWv6eVffB7p-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Есть каналы -- кто отвечает за каналы? Есть Плеер Процедур -- кто за него отвечает (как дизайнить экраны и проч)? Сделать по пути клиента, кто отвечает за какие касания клиента? Например, РО плеера процедур находится у Кириллычева.&amp;nbsp;" vertex="1">
+          <mxGeometry height="110" width="230" x="40" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-7" edge="1" parent="1" source="SYR4WXfk_IWv6eVffB7p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SYR4WXfk_IWv6eVffB7p-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Есть инструмент, на котором разрабатываются бизнес процессы -- кто отвечает за то, что этот инструмент развивается? Напишем конкретные имена, которые этим занимаются." vertex="1">
+          <mxGeometry height="110" width="230" x="350" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-9" edge="1" parent="1" source="SYR4WXfk_IWv6eVffB7p-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SYR4WXfk_IWv6eVffB7p-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Есть выставление требований бизнесу - Т-Запуск. С кем они взаимодействуют? Есть ли связь между ТВорк-Процедуры и Т-Запуском?" vertex="1">
+          <mxGeometry height="110" width="230" x="660" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Проверить, что создание палик-апи ручек помогает созданию ЛЛМ-агентов на примере Орига." vertex="1">
+          <mxGeometry height="110" width="230" x="660" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-13" edge="1" parent="1" source="SYR4WXfk_IWv6eVffB7p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SYR4WXfk_IWv6eVffB7p-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Карта команд И взаимодействие между командами." vertex="1">
+          <mxGeometry height="110" width="230" x="40" y="-260" as="geometry" />
+        </mxCell>
+        <mxCell id="SYR4WXfk_IWv6eVffB7p-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Каналы, Интерфейсы, создание процессов, Пабик АПИ, Т-Запуск, развитие людей, Проблем Плетформ" vertex="1">
+          <mxGeometry height="110" width="230" x="350" y="-260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
