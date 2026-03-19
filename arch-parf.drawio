@@ -260,7 +260,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FGs9JqbXTleUqNlbfLZ2" name="Page-2">
-    <mxGraphModel dx="1880" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2027" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -434,7 +434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P1Z-otbpOc0KXmxeSxfx" name="Доменные технологии">
-    <mxGraphModel dx="1236" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2086" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -450,11 +450,14 @@
         <mxCell id="vU5vwBaG8PudBL94nKvG-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Собрать реестр инструментов, которые были созданы в доменных командах -- на примерах посмотрим, что именно из этого православно создан в домене, что не православно, что нужно усилить/достаффить" vertex="1">
           <mxGeometry height="110" width="230" x="285" y="290" as="geometry" />
         </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-5" edge="1" parent="1" source="vU5vwBaG8PudBL94nKvG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="vU5vwBaG8PudBL94nKvG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vU5vwBaG8PudBL94nKvG-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Бенефиты" vertex="1">
           <mxGeometry height="60" width="120" x="30" y="315" as="geometry" />
         </mxCell>
-        <mxCell id="vU5vwBaG8PudBL94nKvG-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Распознавание чека" vertex="1">
-          <mxGeometry height="60" width="120" x="30" y="175" as="geometry" />
+        <mxCell id="vU5vwBaG8PudBL94nKvG-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Распознавание чека из картинки" vertex="1">
+          <mxGeometry height="60" width="120" x="-160" y="315" as="geometry" />
         </mxCell>
         <mxCell id="vU5vwBaG8PudBL94nKvG-7" edge="1" parent="1" source="vU5vwBaG8PudBL94nKvG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vU5vwBaG8PudBL94nKvG-11" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -474,6 +477,9 @@
         <mxCell id="vU5vwBaG8PudBL94nKvG-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Автоматическая генеация Js-Calls" vertex="1">
           <mxGeometry height="50" width="100" x="350" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-7" edge="1" parent="1" source="vU5vwBaG8PudBL94nKvG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uPq48GHxdoN28_wOspoC-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vU5vwBaG8PudBL94nKvG-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Платформа создания агентов" vertex="1">
           <mxGeometry height="50" width="100" x="170" y="160" as="geometry" />
         </mxCell>
@@ -486,17 +492,38 @@
         <mxCell id="vU5vwBaG8PudBL94nKvG-15" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Daily" vertex="1">
           <mxGeometry height="60" width="120" x="340" y="505" as="geometry" />
         </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-9" edge="1" parent="1" source="vU5vwBaG8PudBL94nKvG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uPq48GHxdoN28_wOspoC-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vU5vwBaG8PudBL94nKvG-16" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Компонент диагностики операции" vertex="1">
           <mxGeometry height="60" width="120" x="140" y="505" as="geometry" />
         </mxCell>
         <mxCell id="vU5vwBaG8PudBL94nKvG-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Не масштабировали" vertex="1">
           <mxGeometry height="50" width="100" x="170" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-11" edge="1" parent="1" source="vU5vwBaG8PudBL94nKvG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uPq48GHxdoN28_wOspoC-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vU5vwBaG8PudBL94nKvG-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="proc-2-code" vertex="1">
           <mxGeometry height="60" width="120" x="340" y="645" as="geometry" />
         </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-4" edge="1" parent="1" source="uPq48GHxdoN28_wOspoC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uPq48GHxdoN28_wOspoC-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uPq48GHxdoN28_wOspoC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="proc-2-AI" vertex="1">
           <mxGeometry height="50" width="100" x="530" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;div id=&quot;xjaai5q86jrp9cxw5gib7oj4xh_message&quot; class=&quot;post__body&quot; data-qa=&quot;post_body&quot;&gt;&lt;div&gt;&lt;div class=&quot;post-message post-message--collapsed&quot;&gt;&lt;div style=&quot;max-height: 600px;&quot; class=&quot;post-message__text-container&quot;&gt;&lt;div aria-readonly=&quot;true&quot; tabindex=&quot;0&quot; id=&quot;postMessageText_xjaai5q86jrp9cxw5gib7oj4xh&quot; class=&quot;post-message__text&quot; dir=&quot;auto&quot;&gt;&lt;p class=&quot;h-Lua-RIdqe8RYksMe2WNw== TQ8KVt+RVTvvBnSXOhxpXA== _9Uk2j+fJReInDG0ZLNtlvA== VMicuGa5tMp-BtvCB4I+ZQ==&quot;&gt;добавление рутовой процедуры -&amp;gt; получение всех дочерних процедур -&amp;gt; послойный разбор через llm -&amp;gt; поиск дефектов и улучшений -&amp;gt; разделение на AI компоненты - текстовки для RAG / коллы с обработкой данных в API ручки с MCP / логика процесса текстом в MCP resources -&amp;gt; автоматическая генерация skills из этих артефактов&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="350" x="710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Прототип" vertex="1">
+          <mxGeometry height="50" width="100" x="-10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-8" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Проводим А-Б тесты" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="uPq48GHxdoN28_wOspoC-10" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=0;" value="Заморозили" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="645" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
